@@ -1,0 +1,34 @@
+Phát triển phần mềm hướng đối tượng trên Java giải quyết bài toán quản lý
+khách sạn (ví dụ: quản lý đăng ký thuê phòng, khách đến thuê phòng, số lượng
+phòng trống, quản lý thông tin nhận phòng, trả phòng, quản lý doanh thu khách
+sạn, quản lý tiền lương nhân viên,…).
+
+B1: có class phòng, nhân viên và khách hàng
+- Class phòng: 
++ Số phòng
++ Loại phòng
++ Giá phòng
++ Trạng thái phòng
++ Số lượng phòng trống
+
+- class Nhân Viên:
++ Họ tên
++ Mã nhân viên
++ Chức vụ nhân viên
++ Lương
++ Ngày vào làm
++ Ngày nghỉ làm
++ Đánh giá từ khách hàng
+- Class Khách hàng
++ họ tên (Kế thừa từ class nhân viên)
++ mã khách hàng (Kế thừa từ class nhân viên)
++ Ngày tháng năm sinh
++ Số cccd
++ Số đt
++ Ngày đặt phòng
++ Ngày đến
++ Ngày đi
++ Số tiền thanh toán
++ Đánh giá chất lượng phục vụ
+
+B2: File chứa dữ liệu cho từng class (csv)
